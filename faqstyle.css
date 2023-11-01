@@ -1,0 +1,49 @@
+body{
+    top:0;
+    margin:0;
+    margin-left:0;
+    margin-right:0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*faq section*/
+.centerfaq{
+    padding-bottom:100px;
+}
+
+.centerfaq, .panel{
+    margin:auto;
+    text-align:center;
+}
+
+.faqsection{
+    padding-top:20px;
+    text-align: center;
+}
+
+.faq{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+  
+.active, .faq:hover{
+    background-color: #ccc; 
+}
+  
+.panel{
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    width: 50%;
+    text-align:left;
+}
+

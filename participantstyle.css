@@ -1,0 +1,299 @@
+body{
+    margin-top:0;
+    margin-left:0;
+    margin-right:0;
+    padding:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*side navigation bar*/
+.navigation_side{
+    background-image:linear-gradient(270deg, #ffffff, skyblue);
+    width:20%;
+    height:100%;
+    position:fixed;
+}
+
+.navigation_side nav ul{
+    list-style-type:none;
+}
+
+.navigation_side nav ul li{
+    padding:20px 0;
+}
+
+.normal a{
+    text-decoration: none;
+    color:#413543;
+    font-weight:bolder;
+    transition:0.2s;
+    font-size:larger;
+}
+
+.normal a:hover{
+    transition:0.8s;
+    letter-spacing:1px;
+    padding-left:4px;
+}
+
+/*navigation search bar section*/
+.navigation_side form input[type=text]{
+    border:none;
+    padding:5px 10px;
+    border-radius:50px 0 0 50px;
+}
+
+.navigation_side form input[type=text]:focus{
+    outline:0;
+    border-bottom:2px solid black;
+}
+/*navigation search bar section -- search button*/
+.navigation_side form button[type=submit]{
+    border:none;
+    padding:5px 15px;
+    border-radius:0 50px 50px 0;
+    cursor:pointer;
+}
+
+/*my account section*/
+.myaccount{
+    float:right;
+}
+
+.dropbtn{
+    background-color:transparent;
+    padding: 12px;
+    font-size: 16px;
+    border:none;
+    cursor:pointer;
+}
+
+.dropdown{
+    position:relative;
+    display:inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover{
+    background-color: #f1f1f1;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*body main*/
+#comingevent{
+    clear:both;
+}
+
+.main{
+    clear:both;
+}
+
+.main .activity{
+    margin:20px auto;
+}
+
+.main h2{
+    text-align: center;
+}
+
+/*activity list*/
+.activity{
+    border-radius:10px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+    max-width:50%;
+    transition:0.2s;
+    margin-top:20px;
+}
+
+.activity:hover{
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.4), 0 10px 30px 0 rgba(0, 0, 0, 0.4);
+    transition:1.0s;
+}
+
+
+/*testing button join section*/
+.save{
+    font-weight:bold;
+    font-size:15px;
+    letter-spacing:0.2px;
+    padding:10px 25px;
+    background-color:#7AA874;
+    border:none;
+    border-radius:4px;
+    margin:15px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.save:hover{
+    background-color:#ABC4AA;
+    cursor:pointer;
+    box-shadow: 2px 5px 5px grey;
+}
+
+/*ticket button section*/
+.ticket button{
+    font-weight:bold;
+    font-size:15px;
+    letter-spacing:0.2px;
+    padding:10px 25px;
+    background-color:#93BFCF;
+    border:none;
+    border-radius:4px;
+    margin:15px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.ticket button:hover{
+    background-color:#BFDCE5;
+    cursor:pointer;
+    box-shadow: 2px 5px 5px grey;
+}
+
+.ticket button a{
+    text-decoration: none;
+    color:black;
+}
+
+/*join button section*/
+.join button{
+    font-weight:bold;
+    font-size:15px;
+    letter-spacing:0.2px;
+    padding:10px 25px;
+    background-color:#03C988;
+    border:none;
+    border-radius:4px;
+    margin:15px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.join button:hover{
+    background-color:#BEF0CB;
+    cursor:pointer;
+    box-shadow: 2px 5px 5px grey;
+}
+
+.join button a{
+    text-decoration: none;
+    color:black;
+}
+
+/*back button section*/
+.back button{
+    font-weight:bold;
+    font-size:15px;
+    letter-spacing:0.2px;
+    padding:10px 25px;
+    background-color:#ECF2FF;
+    border:none;
+    border-radius:4px;
+    margin:15px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.back button:hover{
+    background-color:#D8D8D8;
+    cursor:pointer;
+    box-shadow: 2px 5px 5px grey;
+}
+
+.back button a{
+    text-decoration: none;
+    color:black;
+}
+
+/*Pay Now button section*/
+.pay button{
+    font-weight:bold;
+    font-size:15px;
+    letter-spacing:0.2px;
+    padding:10px 25px;
+    background-color:#FEFF86;
+    border:none;
+    border-radius:4px;
+    margin:15px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.pay button:hover{
+    background-color:#FFD966;
+    cursor:pointer;
+    box-shadow: 2px 5px 5px grey;
+}
+
+.pay button a{
+    text-decoration: none;
+    color:black;
+}
+
+/*give up button section*/
+.cancel button{
+    font-weight:bold;
+    font-size:15px;
+    letter-spacing:0.2px;
+    padding:10px 25px;
+    background-color:#E96479;
+    border:none;
+    border-radius:4px;
+    margin:15px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.cancel button:hover{
+    background-color:#F9B5D0;
+    cursor:pointer;
+    box-shadow: 2px 5px 5px grey;
+}
+
+.cancel button a{
+    text-decoration: none;
+    color:black;
+}
+
+/*footer sectiono*/
+footer p{
+    text-align: center;
+}
+
+.btn input[type=submit]{
+    font-weight:bold;
+    font-size:15px;
+    letter-spacing:0.2px;
+    padding:10px 25px;
+    background-color:#7AA874;
+    border:none;
+    border-radius:4px;
+    margin:15px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.btn input[type=submit]:hover{
+    background-color:#ABC4AA;
+    cursor:pointer;
+    box-shadow: 2px 5px 5px grey;
+}

@@ -1,0 +1,138 @@
+.navigation{
+    position:fixed;
+    z-index:1;
+    vertical-align: center;
+    background-color:rgba(0, 0, 0, 0.7);
+    width:100%;
+}
+
+.navigation ul li{
+    display:inline-block;
+}
+
+.rightnav{
+    float:right;
+}
+
+.rightnav li a{
+    padding:20px;
+    text-decoration:none;
+    color:white;
+}
+
+/*footer*/
+footer{
+    max-width:1024px;
+    margin:auto;
+}
+footer ul li{
+    list-style-type:none;
+}
+
+/*footer - society detail list*/
+.societydetails{
+    float:left;
+    width:35%;
+}
+
+.societydetails ul li table tr #mailto a{
+    text-decoration: none;
+    color:black;
+}
+
+/*footer - navigation*/
+.footnav{
+    float:left;
+    width:17.5%;
+}
+
+.footnav ul li{
+    margin:10px 0 10px 0;
+}
+
+.footnav ul li a{
+    text-decoration: none;
+    transition:1s;
+    color:black;
+}
+
+.footnav ul li a:hover{
+    padding-left:5px;
+    transition:1.2s;
+    color:grey;
+    font-weight:bold;
+}
+
+/*footer - member*/
+.footmember{
+    float:left;
+    width:17.5%;
+}
+
+.footmember ul li{
+    margin:10px 0 10px 0;
+}
+
+.footmember ul li a{
+    text-decoration: none;
+    transition:1s;
+    color:black;
+}
+
+.footmember ul li a:hover{
+    padding-left:5px;
+    transition:1.2s;
+    color:grey;
+    font-weight:bold;
+}
+
+/*footer - social and copyright*/
+.socialNcopyright{
+    float:left;
+    width:30%;
+}
+
+.socialNcopyright ul li{
+    display:inline-block;
+}
+
+.socialNcopyright i{
+    text-align:center;
+    margin:auto;
+}
+
+.socialNcopyright .fa{
+    box-shadow: 5px 5px 10px grey;
+    border-radius:20px;
+    padding:10px;
+    width:30px;
+    height:30px;
+    font-size:30px;
+    text-align:center;
+    vertical-align:middle;
+    margin:auto;
+}
+  
+.socialNcopyright .fa:hover{
+      opacity: 0.9;
+}
+  
+.socialNcopyright .fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+
+.socialNcopyright .fa-whatsapp{
+    background: #25D366;
+    color: white;
+}
+
+.socialNcopyright .fa-envelope{
+    background: #D44638;
+    color: white;
+}
+
+.socialNcopyright .fa-instagram{
+    background: #30618A;
+    color: white;
+}

@@ -1,0 +1,209 @@
+body{
+    margin-top:0;
+    margin-left:0;
+    margin-right:0;
+    padding:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(skyblue, #ffffff);
+    background-repeat: no-repeat;
+}
+
+/*my account section*/
+.myaccount{
+    float:right;
+}
+
+.dropbtn{
+    background-color:transparent;
+    padding: 12px;
+    font-size: 16px;
+    border:none;
+    cursor:pointer;
+}
+
+.dropdown{
+    position:relative;
+    display:inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover{
+    background-color: #f1f1f1;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*body main*/
+.main form table{
+    clear:both;
+    margin:20px auto;
+}
+
+.main h2{
+    clear:both;
+    text-align: center;
+}
+
+table{
+    width:55%;
+    margin:auto;
+}
+
+form{
+    box-shadow: 0 7px 12px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.3);
+    width:50%;
+    height:auto;
+    margin:auto;
+    border-radius:10px;
+    background:white;
+}
+
+/*input section*/
+input[type=text]{
+    padding:8px;
+    width:100%;
+}
+
+input[type=text]:focus{
+    outline:none;
+}
+
+/*button section*/
+.save{
+    font-weight:bold;
+    letter-spacing:0.2px;
+    padding:10px 25px;
+    background-color:#7AA874;
+    border:none;
+    border-radius:4px;
+    margin:15px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.save:hover{
+    background-color:#ABC4AA;
+    cursor:pointer;
+    box-shadow: 2px 5px 5px grey;
+}
+
+input[type=reset]{
+    font-weight:bold;
+    letter-spacing:0.2px;
+    padding:10px 25px;
+    background-color:#B0DAFF;
+    border:none;
+    border-radius:4px;
+    margin:15px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+input[type=reset]:hover{
+    background-color:#B9E9FC;
+    cursor:pointer;
+    box-shadow: 2px 5px 5px grey;
+}
+
+.reset:hover{
+    background-color:#B9E9FC;
+    cursor:pointer;
+    box-shadow: 2px 5px 5px grey;
+}
+
+.cancel{
+    font-weight:bold;
+    letter-spacing:0.2px;
+    padding:10px 25px;
+    background-color:#D8D8D8;
+    border:none;
+    border-radius:4px;
+    margin:15px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.cancel:hover{
+    background-color:#E4DCCF;
+    cursor:pointer;
+    box-shadow: 2px 5px 5px grey;
+}
+
+.cancel a{
+    text-decoration: none;
+    color:black;
+}
+
+.btns{
+    text-align: center;;
+}
+
+/*footer sectiono*/
+footer p{
+    text-align: center;
+}
+
+/*main payment */
+table tr,td,th{
+    padding:8px 0;
+}
+
+/*payment method section*/
+.ccl a{
+    font-weight:bold;
+    letter-spacing:0.2px;
+    padding:10px 25px;
+    background-color:#F6F1F1;
+    border:none;
+    border-radius:4px;
+    margin:15px;
+    cursor:pointer;
+    text-decoration:none;
+    color:black;
+    transition:0.3s;
+}
+
+.ccl a:hover{   
+    background-color:#ECF2FF;
+    cursor:pointer;
+    box-shadow: 2px 5px 5px grey;
+}
+
+
+/*pay button*/
+.btns a{
+    font-weight:bold;
+    letter-spacing:0.2px;
+    padding:10px 25px;
+    background-color:#BFACE2;
+    border:none;
+    border-radius:4px;
+    margin:15px;
+    cursor:pointer;
+    text-decoration:none;
+    color:black;
+    transition:0.3s;
+}
+
+.btns a:hover{   
+    background-color:#655DBB;
+    cursor:pointer;
+    box-shadow: 2px 5px 5px grey;
+}

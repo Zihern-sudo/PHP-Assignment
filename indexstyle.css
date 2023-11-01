@@ -1,0 +1,145 @@
+body{
+    margin:auto;    /*content in center of webpage*/
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/*main banner section*/
+.banner{
+    width:100%;
+}
+
+#bannervideo{
+    width:100%;
+}
+
+/*activities list section*/
+.activities{
+    text-align: center;
+    padding:100px 0;
+}
+
+.act{
+    height:auto;
+    max-width:300px;
+    padding:20px;
+    margin:20px;
+    clear:both;
+    display:inline-block;
+    transition:1.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.act:hover{
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4), 0 9px 30px 0 rgba(0, 0, 0, 0.4);
+    font-weight:bold;
+    transition:1.2s;
+}
+
+.act img{
+    width:100%;;
+}
+
+/*youtube video section*/
+.ytvbg{
+    clear:both;
+    background:#8D7B68;
+    width:100%;
+    padding:100px 0;
+}
+
+.youtube_video{
+    padding:4%;
+}
+
+.youtube_video table{
+    width:80%;
+    margin:auto;
+}
+
+#deschead{
+    width:35%;
+}
+
+#deschead h1{
+    text-align: center;
+    color:#F7F1E5;
+}
+
+#vdcont{
+    width:65%;
+    text-align: center;
+}
+
+#youtube{
+    text-align:center;
+}
+
+#descdetail p{
+    text-align: center;
+    color:#F7F1E5;
+    font-weight:bold;
+    font-size: large;
+}
+
+/*member signup section*/
+.index_member{
+    clear:both;
+    max-width:1024px;
+    margin:auto;
+    padding:100px 0;
+}
+
+.index_member td{
+    width:50%;
+}
+
+.member_cont td img{
+    float:right;
+}
+
+.member_cont p, h1{
+    padding:20px 0;
+    text-align:center;
+}
+
+.btnlct{
+    padding:20px;
+    text-align:center;
+}
+
+#signupbtn button{
+    border:4px solid #B8621B;
+    background:#B8621B;
+    padding:15px 25px;
+    margin-right:25px;
+    color:white;
+    font-weight:bold;
+    letter-spacing: 0.25px;
+    font-size:15px;
+    cursor:pointer;
+    transition:1.2s;
+}
+
+#signupbtn button:hover{
+    transition:0.8s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 4px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+#loginbtn button{
+    border:4px solid #DFA67B;
+    background:none;
+    padding:15px 30px;
+    margin-right:25px;
+    color:#B8621B;
+    font-weight:bold;
+    letter-spacing: 0.25px;
+    font-size:15px;
+    cursor:pointer;
+    transition:1.2s;
+}
+
+#loginbtn button:hover{
+    border:4px solid #DFA67B;
+    transition:0.8s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 4px 20px 0 rgba(0, 0, 0, 0.3);
+}

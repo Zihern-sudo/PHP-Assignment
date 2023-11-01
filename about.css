@@ -1,0 +1,213 @@
+body{
+    margin-top:0;
+    margin-left:0;
+    margin-right:0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*banner section*/
+.history_desc{
+	margin:auto;
+	text-align:center;
+	
+}
+
+.history_desc img{
+	width:100%;
+}
+
+.bg_desc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}   
+
+#bannerheading{
+    color:white;
+    font-weight:bold;
+    letter-spacing:2px;
+    font-size:xx-large;
+}
+
+.bg_desc p{
+    font-weight:bold;
+    color:white;
+    font-size:x-large;
+}
+
+/*testing*/
+table tr td{
+    padding:5px 0;
+}
+
+/*commitee section*/
+.commitee{
+    text-align:center;
+}
+
+.commitee h1{
+    padding-top:50px;
+}
+   
+.people{
+    padding:50px;
+    display:inline-block;
+    margin:50px;
+    border-radius:25px;
+    cursor:pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.people:hover{
+    padding:50px;
+    display:inline-block;
+    margin:50px;
+    border-radius:25px;
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.4), 0 10px 30px 0 rgba(0, 0, 0, 0.4);
+}
+
+.people img{
+    border-radius:50%;
+}
+
+/*people - icon section*/
+.iconcommitee a{
+    display:inline-block;
+    list-style-type:none;
+    margin:5px;
+    font-size:25px;
+}
+
+.iconcommitee a .fa-facebook{
+    color:#3B5998;
+}
+
+.iconcommitee a .fa-whatsapp{
+    color:#25D366;
+}
+
+.iconcommitee a .fa-envelope{
+    color:#D44638;
+}
+
+.iconcommitee a .fa-instagram{
+    color:#30618A;
+}
+
+/*contactus section*/
+.contactus{
+    padding:100px 0;
+}
+
+.contactus h1{
+    text-align:center;
+    letter-spacing:2px;
+    padding:20px;
+}
+
+.contactus table{
+    margin:auto;
+    max-width:1024px;
+}
+
+/*contact us address section*/
+#address{
+    font-weight:bold;
+    text-align:center; 
+}
+
+/*contact us email section*/
+#email{
+    text-align: center;
+}
+
+#email a{
+    text-decoration:none;
+}
+
+/*contact us phone section*/
+#phone{
+    text-align: center;
+}
+
+/*contact us button section*/
+#fbbtn{
+    text-align: center;
+}
+
+#fbbtn button{
+    border:2px solid #3B5998;
+    border-radius:20px;
+    background:#3B5998;
+    padding:10px 20px;
+    color:white;
+    cursor:pointer;
+    transition:1.2s;
+    font-weight:bold;
+}
+
+#fbbtn button:hover{
+    border:2px solid #3B5998;
+    background:none;
+    color:#3B5998;
+    cursor:pointer;
+    transition:0.8s;
+}
+
+#igbtn{
+    text-align: center;
+}
+
+#igbtn button{
+    border:2px solid #C13584;
+    border-radius:20px;
+    background-image:linear-gradient(225deg, #5851DB, #C13584, #FD1D1D, #FCAF45);
+    padding:10px 20px;
+    color:white;
+    cursor:pointer;
+    transition:1.2s;
+    font-weight:bold;
+}
+
+#igbtn button:hover{
+    border:2px solid #FCAF45;
+    background:none;
+    color:#5851DB;
+    cursor:pointer;
+    transition:0.8s;
+}
+
+#wsbtn{
+    text-align: center;
+}
+
+#wsbtn button{
+    border:2px solid #25D366;
+    border-radius:20px;
+    background:#25D366;
+    padding:10px 20px;
+    color:white;
+    cursor:pointer;
+    transition:1.2s;
+    font-weight:bold;
+}
+
+#wsbtn button:hover{
+    border:2px solid #075E54;
+    background:none;
+    color:#075E54;
+    cursor:pointer;
+    transition:0.8s;
+}
+
+table{
+    padding:100px 0;
+    margin:auto;
+    width:100%;
+    max-width:1024px
+}
+
+table #aimmainimage{
+    width:30%;
+}
